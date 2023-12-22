@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Tidy Tabs",
+  "version": "1.0.0",
+  "description": "Automatically sorts tabs based on their hostnames",
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
