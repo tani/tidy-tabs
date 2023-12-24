@@ -6,6 +6,10 @@
   "description": "Automatically sorts tabs based on their hostnames",
   "homepage_url": "https://github.com/tani/tidy-tabs",
   "permissions": ["tabs"],
+  "icons": {
+    "48": "icon48.png",
+    "96": "icon96.png"
+  },
   "background": {
     "scripts": ["background.js"]
   }
