@@ -10,6 +10,10 @@ It allows you to automatically sort tabs based on their domain as follows:
 - If one hostname contains another, the shorter one is smaller.
   (e.g. example2.org is smaller than www.example2.org because example2.org is shorter than www.example2.org)
 
+# Availability
+
+Available for Firefox here: https://addons.mozilla.org/firefox/addon/tidy_tabs/
+
 # License
 
 Tidy Tabs is licensed under the MIT license.
