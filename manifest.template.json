@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tidy Tabs",
   "author": "TANIGUCHI Masaya",
-  "version": "1.1.1",
+  "version": "1.1.3",
   "description": "Automatically sorts tabs based on their hostnames",
   "homepage_url": "https://github.com/tani/tidy-tabs",
   "permissions": ["tabs"],
