@@ -2,96 +2,12 @@
 <html>
   <head>
     <title>Tidy Tabs</title>
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 0;
-        min-height: 300px;
-      }
-      main {
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-      }
-      #icons {
-        align-items: center;
-        width: calc((32px + 10px * 2) * 4 + 5px * 2 * 4);
-      }
-      a {
-        cursor: pointer;
-        border-radius: 4px;
-        box-shadow: 0 0 4px #ccc;
-        display: inline-block;
-        width: calc(32px + 10px * 2);
-        height: calc(32px + 10px * 2);
-        padding: 10px;
-        margin: 5px;
-      }
-      a:hover {
-        position: relative;
-        transition: background-color 0.2s ease;
-        background-color: #eee;
-        opacity: 0.8;
-      }
-      a:hover::after {
-        pointer-events: none;
-        transition: opacity 0.2s ease;
-        content: "\00d7";
-        color: #fff;
-        position: absolute;
-        top: 0px;
-        left: 16px;
-        font-size: 32px;
-        display: block;
-        height: 32px;
-        width: 32px;
-      }
-      a:hover::before{
-        pointer-events: none;
-        transition: opacity 0.2s ease;
-        opacity: 0.8;
-        content: '.';
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        display: block;
-        height: 32px;
-        width: 32px;
-        border-radius: 50%;
-        background-color: #666;
-      }
-      img {
-        width: 32px;
-        height: 32px;
-      }
-      h1 {
-        font-family: 'Impact', 'Arial Black', 'Arial Bold', Gadget, sans-serif;
-        font-size: 1.2em;
-        font-weight: normal;
-        margin: 0;
-        padding: 10px;
-        text-align: center;
-        box-shadow: 0 0 4px #ccc;
-      }
-      p {
-        display: block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        padding: 10px;
-        margin: 15px;
-      }
-    </style>
+    <link rel="stylesheet" href="popup.css">
     <script src="popup.js"></script>
   </head>
   <body>
     <header>
-      <h1>Tidy Tabs</h1>
+      <h1>&leq; Tidy Tabs</h1>
     </header>
     <main>
       <div id="icons"></div>

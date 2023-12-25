@@ -20,9 +20,12 @@ async function render() {
       visited.push(tab.favIconUrl);
       icon.src = tab.favIconUrl;
       icon.title = tab.title;
+      icon.className = 'favicon';
       icon.addEventListener('click', async () => {
         await close(tab.favIconUrl);
-        await setTimeout(render, 100);
+        await new Promise(_ => setTimeout(_, 100));
+        await render();
+        setTimeout(render, 100);
         return false;
       });
       a.appendChild(icon);
