@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Tidy Tabs",
+  "author": "TANIGUCHI Masaya",
+  "version": "1.0.3",
+  "description": "Automatically sorts tabs based on their hostnames",
+  "homepage_url": "https://github.com/tani/tidy-tabs",
+  "permissions": ["tabs"],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "96": "icon96.png",
+    "128": "icon128.png"
+  },
+  "__firefox": {
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "{f08845eb-6185-4946-a906-f17ba15bfae5}"
+      }
+    },
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "__chrome": {
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+}
