@@ -1,6 +1,6 @@
 version:=$(shell cat manifest.template.json | jq -r '.version' | sed 's/ /_/g')
 name:=$(shell cat manifest.template.json | jq -r '.name' | sed 's/ /_/g')
-files:=background.js icon16.png icon48.png icon96.png icon128.png README.md
+files:=background.js icon16.png icon48.png icon96.png icon128.png README.md popup.html
 
 all: $(name)-$(version)-firefox.zip $(name)-$(version)-chrome.zip
 

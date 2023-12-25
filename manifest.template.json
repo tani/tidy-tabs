@@ -12,6 +12,16 @@
     "96": "icon96.png",
     "128": "icon128.png"
   },
+  "action": {
+    "default_title": "Tidy Tabs",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "96": "icon96.png",
+      "128": "icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
   "__firefox": {
     "browser_specific_settings": {
       "gecko": {
