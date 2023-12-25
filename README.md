@@ -3,7 +3,7 @@
 Tidy Tabs is a browser extension that keeps your tabs tidy.
 It allows you to automatically sort tabs based on their domain as follows:
 
-- It compares components (tld, top-level domain, subdomain, subsubdomain, etc.) lexicographically.
+- It compares components (top-level domain, second-level domain, etc.) lexicographically.
   (e.g. com is smaller than org, example1 is smaller than example2)
 - It compares hostnames reverse lexicographically.
   (e.g. example1.com is smaller than example2.org because com is smaller than org)
