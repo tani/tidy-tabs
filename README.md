@@ -1,5 +1,8 @@
 # Tidy Tabs
 
+[![](https://storage.googleapis.com/web-dev-uploads/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chromewebstore.google.com/detail/tidy-tabs/geilkiigpbckhddbddokhnmdfpkcdgno)
+[![](https://blog.mozilla.org/addons/files/2015/11/get-the-addon.png)](https://addons.mozilla.org/firefox/addon/tidy_tabs/)
+
 Tidy Tabs is a browser extension that keeps your tabs tidy. It allows you to
 automatically sort tabs based on their domain as follows:
 
@@ -14,7 +17,8 @@ automatically sort tabs based on their domain as follows:
 
 # Availability
 
-Available for Firefox here: https://addons.mozilla.org/firefox/addon/tidy_tabs/
+- Firefox: https://addons.mozilla.org/firefox/addon/tidy_tabs/
+- Chrome: https://chromewebstore.google.com/detail/tidy-tabs/geilkiigpbckhddbddokhnmdfpkcdgno
 
 # License
 
